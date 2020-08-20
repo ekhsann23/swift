@@ -1,0 +1,238 @@
+body {
+  background-color: #FFF;
+  font-family: 'Inter', sans-serif;
+  color: #212353;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-toggler {
+  border-radius: 0.50rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #94B9F9;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #FFFFFF !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+
+.btn-navbar-right {
+  margin-top: 20px !important;
+  margin-bottom: 18px !important;
+  margin-right: -18px !important;
+  height: 40px;
+  border-radius: 16px;
+}
+
+.btn-login {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.btn-login:hover {
+  background-color: #005DFF;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+header {
+  padding: 480px 0 280px;
+  margin-top: -390px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #FFFFFF;
+}
+
+header h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+header .px-4 {
+  padding-right: 80px !important;
+  padding-left: 80px !important;
+  padding-bottom: 12px !important;
+  padding-top: 12px !important;
+}
+
+header .btn-join-free-now {
+  background-color: #FE688D;
+  color: #FFF;
+  border-radius: 16px;
+}
+
+header .btn-join-free-now:hover {
+  background-color: #FF84A2;
+  color: #FFF;
+  border-radius: 16px;
+}
+
+.section-stats {
+  margin-top: -250px;
+  padding-top: -700px;
+}
+
+.section-stats .stats-detail {
+  padding-top: -120px;
+  padding-left: 40px;
+}
+
+.section-stats img {
+  width: 1000px;
+}
+
+.section-download {
+  min-height: 2119px;
+  background-image: url("../images/header-manager.png");
+  margin-top: 60px;
+  margin-bottom: auto;
+}
+
+.section-download .section-download-heading {
+  margin-top: 80px;
+}
+
+.section-download .section-download-heading h2, .section-download .section-download-heading p {
+  color: #212353;
+}
+
+.section-download .section-download-heading h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.section-download .section-download-heading p {
+  font-size: 18px;
+}
+
+.section-download .section-popular {
+  margin-top: 140px;
+  padding-top: -70px;
+}
+
+.section-download .section-popular h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.section-download .section-popular .img-popular {
+  width: 500px;
+}
+
+.section-download .section-popular .img-popular-2 {
+  width: 600px;
+}
+
+.section-download .section-popular .learn-more {
+  color: #FE688D;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 480px 0 280px;
+    margin-top: -380px;
+  }
+  header h1, header p {
+    color: #FFFFFF;
+  }
+  header h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+  }
+  header p {
+    font-size: 18px;
+  }
+  header .px-4 {
+    padding-right: 80px !important;
+    padding-left: 80px !important;
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+  }
+  header .btn-join-free-now {
+    background-color: #FE688D;
+    color: #FFF;
+    border-radius: 16px;
+  }
+  header .btn-join-free-now:hover {
+    background-color: #FF84A2;
+    color: #FFF;
+    border-radius: 16px;
+  }
+  header .stats {
+    width: 1000px;
+  }
+  .section-stats {
+    margin-top: -250px;
+    padding-top: -400px;
+  }
+  .section-stats .stats-detail {
+    padding-top: -120px;
+    padding-left: 40px;
+  }
+  .section-stats img {
+    width: 440px;
+  }
+  .section-download {
+    min-height: 2119px;
+    background-image: url("../images/header-manager.png");
+    margin-top: 60px;
+    margin-bottom: auto;
+  }
+  .section-download .section-download-heading {
+    margin-top: 80px;
+  }
+  .section-download .section-download-heading h2, .section-download .section-download-heading p {
+    color: #212353;
+  }
+  .section-download .section-download-heading h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+  }
+  .section-download .section-download-heading p {
+    font-size: 18px;
+  }
+  .section-download .section-popular {
+    margin-top: 140px;
+    padding-top: -70px;
+  }
+  .section-download .section-popular h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+  .section-download .section-popular .img-popular {
+    width: 400px;
+  }
+  .section-download .section-popular .img-popular-2 {
+    width: 400px;
+  }
+  .section-download .section-popular .learn-more {
+    color: #FE688D;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=main.css.map */
