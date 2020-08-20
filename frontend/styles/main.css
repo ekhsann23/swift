@@ -96,7 +96,7 @@ header .btn-join-free-now:hover {
 }
 
 .section-stats img {
-  width: 1000px;
+  width: 900px;
 }
 
 .section-download {
@@ -225,10 +225,10 @@ header .btn-join-free-now:hover {
     font-weight: bold;
   }
   .section-download .section-popular .img-popular {
-    width: 400px;
+    width: 350px;
   }
   .section-download .section-popular .img-popular-2 {
-    width: 400px;
+    width: 350px;
   }
   .section-download .section-popular .learn-more {
     color: #FE688D;
